@@ -10,7 +10,6 @@ import Link from 'next/link';
 import Head from 'next/head';
 import styled, { keyframes } from 'styled-components';
 import { auth } from '../../utils/firebase';
-import WithHeaderAndQuoteExample from '@/components/footer/Footer';
 import { Button } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 
@@ -322,7 +321,7 @@ export default function loginMail() {
         </div>
         </>
         )}
-      </Div><WithHeaderAndQuoteExample></WithHeaderAndQuoteExample>
+      </Div>
     </>
   );
 }

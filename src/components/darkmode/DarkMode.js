@@ -14,7 +14,7 @@ export default function DarkMode (){
                     setDarkmode(isToggleOn);
                 }
              }>
-                { isToggleOn ? 'Encendido': 'Apagado'}
+                { isToggleOn ? 'Claro': 'Oscuro'}
             </button>
         </>
     )

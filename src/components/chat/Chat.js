@@ -16,7 +16,8 @@ export class Chat extends Component {
     }
     render() {
         return (
-            <></>
+            <>
+            </>
         )
     }
 }

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Barra from '@/components/nabvar/Navbar';
 import RandomCards from '@/components/card/RandomCards';
 import Footer from '@/components/footer/Footer';
-import Searchbar from '@/components/searchbar';
+import Searchbar from '@/components/searchbar/searchbar';
 import Chat from '@/components/chat/Chat';
 import ContenProducto from '@/components/card/ContenProducto';
 import Productos from '@/components/card/Cards';

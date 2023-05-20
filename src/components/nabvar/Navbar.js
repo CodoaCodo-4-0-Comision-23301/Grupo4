@@ -22,7 +22,7 @@ function NavBar() {
         <Navbar key={expand}  expand={expand} className={darkMode ? styles.dark : styles.light} fixed="top" variant="light">
           <Container fluid>
             <Navbar.Brand href="#home">
-              <a class="nav-link navbar-brand" href="/">
+              <a className="nav-link navbar-brand" href="/">
                 <img src='pediloya.png' alt="Logo de PediloYa" className={`${styles.logo}`}/>
               </a>
             </Navbar.Brand>
@@ -42,6 +42,7 @@ function NavBar() {
                   <Nav.Link href='/comida'>Comidas</Nav.Link>
                   <Nav.Link href='/bebidas'>Bebidas</Nav.Link>
                   <Nav.Link href='/postres'>Postres</Nav.Link>
+                  
                 </Nav>
             <Navbar.Text>
             <DarkMode></DarkMode>
